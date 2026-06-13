@@ -43,6 +43,15 @@ If the request fits multiple playbooks, use the one that best matches the user's
 - Keep raw chat material separate from cleaned notes.
 - Prefer small readable files over one large document.
 
+## Knowledge Quality Rules
+
+- Prefer stable, well-established knowledge for general learning.
+- Do not present ambiguous, disputed, or evidence-limited topics as settled fact.
+- When a topic has multiple serious explanations or theories, explain the uncertainty clearly.
+- Current political events should not be chosen as random learning topics.
+- Current political affairs may be taught when specifically requested, but must be handled as current, contested, and time-sensitive where appropriate.
+- Historic events are allowed as normal learning topics, while still noting major uncertainty or controversy when it matters.
+
 ## After A Learning Session
 
 Update the project when appropriate:
