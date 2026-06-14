@@ -52,6 +52,39 @@ If the request fits multiple playbooks, use the one that best matches the user's
 - Current political affairs may be taught when specifically requested, but must be handled as current, contested, and time-sensitive where appropriate.
 - Historic events are allowed as normal learning topics, while still noting major uncertainty or controversy when it matters.
 
+## Learning Session Commands
+
+These commands control what happens to content from the current learning session.
+
+### Continue
+
+If the user says "continue" after an initial topic is proposed or taught, treat that as acceptance of the topic direction.
+
+After acceptance, the topic may be added to the index and learning state as appropriate.
+
+### Cancel
+
+If the user says "cancel" after starting a new topic, do not assume what should be deleted. Ask the user to choose one cleanup option:
+
+1. Remove only the last message contents from the index.
+2. Remove the last subcategory created in this chat since asking for the new topic.
+3. Remove all content entries created since asking for the new topic.
+
+After the user chooses, apply only that cleanup scope.
+
+### WIP
+
+If the user says "WIP", mark the current topic as work in progress instead of learned.
+
+Use this when the topic is interesting but unfinished, too large to finish now, or the session moved into a different category unexpectedly.
+
+Update:
+
+- the topic status as `in-progress` or `needs-review`
+- `index/topic-list.md`
+- `index/wip.md`
+- `LEARNING_STATE.md`
+
 ## After A Learning Session
 
 Update the project when appropriate:
