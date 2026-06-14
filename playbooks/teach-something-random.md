@@ -36,16 +36,6 @@ A random topic may also be a specific example within a broad familiar category, 
 
 Avoid highly specialized topics that require multiple prior concepts before the topic itself can make sense.
 
-## Quality Rules
-
-Follow the global knowledge quality rules in `PLAYBOOK.md`.
-
-In particular:
-
-- Do not choose current political events as random topics.
-- Do not present ambiguous or evidence-limited subjects as settled fact.
-- If uncertainty is central to the topic, explain that uncertainty clearly.
-
 ## Afterward
 
 Update if the user wants the topic saved:
